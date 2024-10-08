@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "pawds-frontend",
+    "slug": "pawds-frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png", // Esta imagen debe estar en la carpeta src/assets
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/splash.png", // Asegúrate de que esta imagen exista en la carpeta src/assets
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png", // Asegúrate de que esta imagen exista en la carpeta src/assets
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png" // Asegúrate de que esta imagen exista en la carpeta src/assets
+    }
+  }
+}
